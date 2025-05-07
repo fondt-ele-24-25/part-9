@@ -1,0 +1,24 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "part-9"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Michele Lombardi",email = "michele.lombardi2@unibo.it"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4"
+dependencies = [
+    "notebook (>=6,<7)",
+    "numpy (>=2.2.5,<3.0.0)",
+    "scipy (>=1.15.2,<2.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "rise (>=5.7.1,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
